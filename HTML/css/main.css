@@ -1,0 +1,113 @@
+#corpo {
+  background: #f5f5dc;
+  font-family: Verdana;
+  margin: 0;
+}
+
+nav {
+  background-color: #00a86b;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 60px;
+}
+
+nav .logo {
+  float: left;
+  display: block;
+  padding: 14px 16px;
+  color: #f5f5dc;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #831d1c;
+  text-decoration: none;
+  display: block;
+  padding: 17px 8px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+nav a:hover {
+  transition: 0.5;
+  background-color: #831d1c;
+  color: #00a86b;
+}
+
+.ulmenu {
+  float: right;
+}
+
+.ulmenu li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.containerfotos {
+  text-align: center;
+  color: #831d1c;
+  margin: 100px;
+  font-size: 18px;
+}
+
+#receitas {
+  text-align: center;
+  font-size: 18px;
+  color: #831d1c;
+}
+
+ul {
+  width: 70%;
+  margin: auto;
+}
+
+ol {
+  width: 70%;
+  margin: auto;
+}
+
+.strogoingre,
+.strogoingre,
+.strogopre,
+.tacopre,
+.tacoingre,
+.burritopre,
+.burritoingre {
+  text-align: left;
+}
+
+#desenhos {
+  text-align: center;
+  font-size: 18px;
+  color: #831d1c;
+}
+#inspiracoes {
+  text-align: center;
+  font-size: 18px;
+  color: #831d1c;
+}
+
+table {
+  text-align: justify;
+}
+
+#profissao {
+  text-align: center;
+  font-size: 18px;
+  color: #831d1c;
+}
+
+#futuro {
+  text-align: center;
+  font-size: 18px;
+  color: #831d1c;
+}
+
+#hobby {
+  text-align: center;
+  font-size: 18px;
+  color: #831d1c;
+}

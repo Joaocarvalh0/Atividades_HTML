@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  border-radius: 10px;
+  background: #ebebeb;
+  flex-direction: column;
+  align-items: center;
+  width: 30vw;
+  height: 100vh;
+  margin: 10px 0px 10px 0px;
+}
+.redondo {
+  border-radius: 50%;
+  background: #dbdbdb;
+  width: 70px;
+  height: 70px;
+  align-self: center;
+}
+.caixa {
+  background: #dbdbdb;
+  margin: 7px;
+  border-radius: 2px;
+  padding-left: 6px;
+  width: 25vw;
+  height: 3vh;
+}
+.caixinha {
+  width: 12vw;
+  height: 6vh;
+  background: #dbdbdb;
+  border-radius: 10px;
+  align-self: center;
+}
+div {
+  display: flex;
+  background: #995bed;
+  justify-content: center;
+}
+h1 {
+  color: #cecccc;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  background: #ebebeb;
+}
