@@ -1,0 +1,68 @@
+body,
+html {
+  margin: 0;
+  background: rgb(197, 126, 245);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.formulario {
+  width: 50vw;
+}
+.textoheader {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  width: 50vw;
+}
+
+p {
+  font-size: 23px;
+  text-transform: none;
+  text-indent: 40px;
+}
+form {
+  background: beige;
+  max-width: 500px;
+  width: 70%;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 75px;
+  margin-top: 30px;
+}
+form h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(153, 0, 255);
+}
+form input[type="text"],
+form input[type="email"] {
+  width: 100%;
+  height: 6vh;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  margin: 10px 0;
+  background-color: rgb(206, 206, 206);
+}
+form input[type="submit"] {
+  width: 100%;
+  height: 30px;
+  cursor: pointer;
+  background: rgb(197, 126, 245);
+  border-radius: 40px;
+  border: 0;
+  color: white;
+  transition: 0.5s;
+}
+form input[type="submit"]:hover {
+  background: rgb(153, 0, 255);
+}
+form input[type="text"],
+form input[type="email"]:focus {
+  outline: 0;
+}
